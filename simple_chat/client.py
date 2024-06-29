@@ -14,7 +14,7 @@ class ChatClient:
 
 
         while True:
-            data = self.socket.recv(4096)
+            data = self.sock.recv(4096)
             if not data:
                 break
             self.logger.info(data.decode())
@@ -22,7 +22,7 @@ class ChatClient:
     def send_message(self):
         while True:
             user_message = input()
-            self.socket.send(user_message.encode('utf-8' , 'backslashreplace'))
+            self.sock.send(user_message.encode('utf-8' , 'backslashreplace'))
 
 
     @staticmethod
@@ -30,6 +30,8 @@ class ChatClient:
         sock = socket(AF_INET, SOCK_STREAM)
         sock.connect((host, port))
         return sock
+    
+
     @staticmethod
     def _setup_logger():
         logger = logging.getLogger('chat_client')
