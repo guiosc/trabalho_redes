@@ -40,4 +40,5 @@ class ChatClient:
         return logger
 
 if __name__ == "__main__":
-    client = ChatClient('localhost', 4333)
+    from simple_chat.settings import SERVER_HOST, SERVER_PORT
+    client = ChatClient(SERVER_HOST, SERVER_PORT)
