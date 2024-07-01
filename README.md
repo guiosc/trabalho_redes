@@ -9,9 +9,7 @@ Projeto estruturado e implementado em:
 
 <video width="320" height="240" controls>
     <source src="https://github.com/guiosc/trabalho_redes/blob/main/assets/video_chat.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
 </video>
-
 
 ## Arquivo "server.py"
 
