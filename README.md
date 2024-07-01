@@ -84,12 +84,12 @@ O método _tcpdump_ serve para rastrearmos o trafêgo de rede entre o servidor e
 O servidor está enviando uma solicitação de vizinhança (neighbor solicitation) para descobrir o endereço MAC correspondente a um endereço IPv6 específico. Isso é comum quando um dispositivo está tentando verificar se outro dispositivo está presente na rede local ou tentando estabelecer uma comunicação.
 
 ### ARP Request & Reply
-**ARP Request:**É uma **solicitação** ARP usada para descobrir o endereço MAC correspondente a um endereço IP.
+**ARP Request:** É uma **solicitação** ARP usada para descobrir o endereço MAC correspondente a um endereço IP.
 
 * Está perguntando "quem tem" (who has) o endereço IP **172.20.0.1**.
 * A solicitação foi feita pelo host com o endereço MAC **7d58a9879a12**.
 
-**ARP Reply:**É uma **resposta** ARP indicando a correspondência entre o endereço IP e o endereço MAC.
+**ARP Reply:** É uma **resposta** ARP indicando a correspondência entre o endereço IP e o endereço MAC.
 
 * Informa que o endereço IP **172.20.0.1** está associado ao endereço MAC **02:42:74:16:63:c0**
 * (oui Unknown) significa que o endereço MAC não pôde ser associado a um Organizationally Unique Identifier (OUI) conhecido.
@@ -107,7 +107,7 @@ Informa as novas conexões no servidor.
 * **Troca de dados**:
     * Os pacotes com a flag [P.] indicam que há dados sendo transferidos (35 bytes em cada caso).
     * As respostas com a flag [.] são ACKs, confirmando a recepção dos dados.
-* - **Sincronização de Sequências e ACKs:**
+*  **Sincronização de Sequências e ACKs:**
     * As sequências e números de confirmação mostram que os dados estão sendo enviados e reconhecidos corretamente.
     * O primeiro pacote envia 35 bytes de dados (`seq 1:36`), e o segundo pacote confirma a recepção desses 35 bytes (`ack 36`).
 * **Janela de Recepção:**
