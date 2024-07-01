@@ -5,10 +5,6 @@ Projeto estruturado e implementado em:
 
 ![Linguagem Utilizada](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 
-## Implementação
-
-![Vídeo](https://github.com/guiosc/trabalho_redes/blob/main/assets/video_chat.mp4)
-
 ## Arquivo "server.py"
 
 O arquivo **server.py** implementa um servidor de chat que permite a comunicação entre múltiplos clientes conectados.
