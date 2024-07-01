@@ -7,7 +7,7 @@ Projeto estruturado e implementado em:
 
 ## Implementação
 
-![Vídeo](https://github.com/guiosc/trabalho_redes/blob/main/assets/video_chat.mp4)
+* ![Vídeo](https://github.com/guiosc/trabalho_redes/blob/main/assets/video_chat.mp4)
 
 ## Arquivo "server.py"
 
