@@ -67,13 +67,13 @@ O método _tcpdump_ serve para rastrearmos o trafêgo de rede entre o servidor e
 
 ### Servidor & Tcpdump rodando
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_server_running.png" width="400" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_server_running.png" width="1000" >
 
 * *netshoot-1* está executando tcpdump, uma ferramenta de captura de pacotes de rede.
 
 ### Neighbor Solicitation:
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_ICMPv6_ARP.png" width="400" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_ICMPv6_ARP.png" width="1000" >
 
 * Capturas de pacotes ICMPv6, que são usados para comunicação de rede IPv6.
 * Mensagens ARP (Address Resolution Protocol) que são usadas para mapear endereços IP para endereços MAC.
@@ -95,13 +95,13 @@ O servidor está enviando uma solicitação de vizinhança (neighbor solicitatio
 
 ### Conexão dos clientes
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_client.png" width="400" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_client.png" width="1000" >
 
 Informa as novas conexões no servidor.
 
 ### Envio das mensagens
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_troca_mensagem.png" width="400" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_troca_mensagem.png" width="1000" >
 
 * **Troca de dados**:
     * Os pacotes com a flag [P.] indicam que há dados sendo transferidos (35 bytes em cada caso).
@@ -118,7 +118,7 @@ Os logs mostram uma troca de pacotes TCP normal entre dois endereços IP, com da
 
 ### Exit
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_exited.png" width="400" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_exited.png" width="1000" >
 
 * **Resumo da Captura de Pacotes:**
     * **93 pacotes capturados:** Estes são os pacotes que foram registrados durante a captura.
