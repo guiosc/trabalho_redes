@@ -118,7 +118,7 @@ Os logs mostram uma troca de pacotes TCP normal entre dois endereços IP, com da
 
 ### Exit
 
-<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_exited.png" width="1000" >
+<img src="https://github.com/guiosc/trabalho_redes/blob/main/assets/log_exited.png" width="700" >
 
 * **Resumo da Captura de Pacotes:**
     * **93 pacotes capturados:** Estes são os pacotes que foram registrados durante a captura.
